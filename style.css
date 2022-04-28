@@ -96,6 +96,7 @@
 .sidebar {
     position: fixed;
     left: 0;
+    top: 64px;
     display: flex;
     flex-direction: column;
     padding-left: 15px;
