@@ -185,6 +185,36 @@
     color: black;
     font-size: 1.1rem;
   }
+  /* ALL NOTES */
+  .notes{
+    display: flex;
+    justify-content: center;
+  }
+  .note{
+    background-color: white;
+    width: 240px;
+    margin:10px;
+    border: 1px solid #e0e1e0;
+    border-radius: 8px;
+    position: relative;
+  }
+  .note .title,.text{
+    width: 100%;
+    margin: 10px 0 0 15px;
+  }
+  .note .note-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .note-footer .material-icons-outlined {
+    color: #5f6368;
+  }
+  .note .check-circle{
+    position: absolute;
+    left: -10px;
+    top: -10px;
+  }
   
 
   
