@@ -17,7 +17,7 @@
     border-radius: 50%;
     cursor: pointer;
   }
-  
+
   .tooltip {
     position: relative;
   }
@@ -177,6 +177,7 @@
   }
   .close-btn{
     background: none;
+    margin-right: 15px;
     border: none;
     cursor: pointer;
     font-size: 1rem;
